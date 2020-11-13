@@ -27,3 +27,7 @@ export LESS='-MRx4#4'
 PATH=/usr/src/Play20:$PATH
 
 # vim:set ft=sh fenc=utf-8 ts=4 sw=4 sts=4 et:
+
+export CLOUDSDK_PYTHON="/usr/local/opt/python@3.8/libexec/bin/python"
+source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
