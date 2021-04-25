@@ -299,6 +299,4 @@ bindkey -M isearch "^J" history-incremental-pattern-search-forward
 for f in $HOME/.zsh/*(N); do
     source f
 done
-
-export JAVA_HOME=$(dirname $(dirname $(readlink -f /usr/bin/java)))
-# vim:set ft=sh fenc=utf-8 ts=4 sw=4 sts=4 et:
+vim:set ft=sh fenc=utf-8 ts=4 sw=4 sts=4 et:
